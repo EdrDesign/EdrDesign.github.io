@@ -1,0 +1,27 @@
+{
+  "name": "ProjetoEvehx",
+  "homepage": "https://github.com/EduardoEvehx/Projeto-Evehx-Responsivo",
+  "authors": [
+    "Eduardo <eduardo@evehx.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "sass-flex-mixin": "^1.0.3"
+  },
+  "devDependencies": {
+    "font-awesome": "~5.0.0",
+    "bootstrap-sass": "^3.3.7",
+    "breakpoint-sass": "^2.7.1"
+  }
+}

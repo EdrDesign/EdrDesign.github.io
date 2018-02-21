@@ -1,0 +1,60 @@
+header
+	+clearfix
+	min-height: 335px;
+
+	background:
+		image: url('../images/banner3.jpg')
+		position: top center
+		repeat: no-repeat
+		color: $preto
+		
+		size: cover
+	.logo
+		float: left
+		margin: 18px 0 0
+		img
+			widht: 110px
+			height: 85px
+
+	.links
+		float: right
+		margin: 38px 0 0
+
+		nav,
+		.social
+			display: inline-block
+		nav
+			+breakpoint($tablet)
+				display: none
+
+			+breakpoint($celular)
+				display: none
+			ul
+				li
+					display: inline-block
+					margin: 0 20px 0 0
+					a
+						color: $branco
+						text-transform: uppercase
+		.social
+			li
+				display: inline-block
+				margin: 0 20px 0 0
+				a
+					color: $branco
+	h1
+		clear: both
+		color: $branco
+		margin: 140px auto 30px auto !important
+		font-weight: $light
+		border: 3px solid $branco
+		padding: 20px
+		display: table
+		font-size: 30px
+		+breakpoint($celular)
+			+font-size(30px)
+	h1,	
+	p
+		color: $branco
+		text-align: center
+		text-transform: uppercase
